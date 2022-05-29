@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iNetwork</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Owl-carousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/12e1f645c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.css" integrity="sha512-QAY8RpaU+5mx/feUcMx9GlZda/DWr2b7MFnFAPuLKSsVOnBOSGMHZDv4e1HbeLrjGFlhaFYIC29vKGCpOjQryw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <!--Start Header-->
+    <header id="header">
+
+        <!--Primary Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark color-black-bg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">iNetwork</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav m-auto font-rubik">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">On Sale</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products <i class="fas fa-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">WishList</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                    </ul>
+                    <form action="#" class="font-size-14 font-rale">
+                        <a href="#" class="py-2 rounded-pill color-primary-bg">
+                            <span class="font-size-16 px-2 text-white"><i class="fa-solid fa-cart-shopping"></i></span>
+                            <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                        </a>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--Primary Navigation-->
+    </header>
+    <!--Start Header-->
+
+
+    <!--Start #Main-site-->
+    <main id="main-site">
+
+ <!-- Shopping cart section  -->
+ <section id="cart" class="py-3">
+    <div class="container-fluid w-75">
+        <h5 class="font-baloo font-size-20">Shopping Cart</h5>
+
+        <!--  shopping cart items   -->
+            <div class="row">
+                <div class="col-sm-9">
+                    <!-- cart item -->
+                        <div class="row border-top py-3 mt-3">
+                            <div class="col-sm-2">
+                                <img src="./assets/products/iphone/Apple iPhone 11 (128GB) - Green.jpg" style="height: 100px;" alt="cart1" class="img-fluid">
+                            </div>
+                            <div class="col-sm-8">
+                                <h5 class="font-rale font-size-20">Apple iPhone 11 (64GB) - Green</h5>
+                                <small>by Apple</small>
+                                <!-- product rating -->
+                                <div class="d-flex">
+                                    <div class="rating text-warning font-size-12">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                      </div>
+                                      <a href="#" class="px-2 font-rubik font-size-14">68,302 Ratings|1000+ answered questions</a>
+                                </div>
+                                <!--  !product rating-->
+
+                                <!-- product qty -->
+                                    <div class="qty d-flex pt-2">
+                                        <div class="d-flex font-rale w-25">
+                                            <button class="qty-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
+                                            <input type="text" data-id="pro1" class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
+                                            <button data-id="pro1" class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                        </div>
+                                        <button type="submit" class="btn font-rale text-danger px-3 border-right">Delete</button>
+                                        <button type="submit" class="btn font-rale text-danger">Save for Later</button>
+                                    </div>
+                                <!-- !product qty -->
+
+                            </div>
+
+                            <div class="col-sm-2 text-right">
+                                <div class="font-size-20 text-danger font-baloo">
+                                    ₹<span class="product_price">47,900</span>
+                                </div>
+                            </div>
+                        </div>
+                   
+
+                    <!-- cart item -->
+                    <div class="row border-top py-3 mt-3">
+                        <div class="col-sm-2">
+                            <img src="./assets/products/iphone/iphone-11-64gb-black.jpg" style="height: 100px;" alt="cart1" class="img-fluid">
+                        </div>
+                        <div class="col-sm-8">
+                            <h5 class="font-rale font-size-20">Apple iPhone 11 (64GB) - Black</h5>
+                            <small>by Apple</small>
+                            <!-- product rating -->
+                            <div class="d-flex">
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                  </div>
+                                  <a href="#" class="px-2 font-rubik font-size-14">68,302 Ratings|1000+ answered questions</a>
+                            </div>
+                            <!--  !product rating-->
+
+                            <!-- product qty -->
+                                <div class="qty d-flex pt-2">
+                                    <div class="d-flex font-rale w-25">
+                                        <button class="qty-up border bg-light"><i class="fas fa-angle-up"></i></button>
+                                        <input type="text" class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
+                                        <button class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                    </div>
+                                    <button type="submit" class="btn font-rale text-danger px-3 border-right">Delete</button>
+                                    <button type="submit" class="btn font-rale text-danger">Save for Later</button>
+                                </div>
+                            <!-- !product qty -->
+
+                        </div>
+
+                        <div class="col-sm-2 text-right">
+                            <div class="font-size-20 text-danger font-baloo">
+                                ₹<span class="product_price">47,900</span>
+                            </div>
+                        </div>
+                    </div>
+                <!-- !cart item -->
+
+                </div>
+                <!-- subtotal section-->
+                <div class="col-sm-3">
+                    <div class="sub-total border text-center mt-2">
+                        <h6 class="font-size-12 font-rale text-success py-3"><i class="fas fa-check"></i> Your order is eligible for FREE Delivery.</h6>
+                        <div class="border-top py-4">
+                            <h5 class="font-rubik font-size-20">Sub total (2 item):&nbsp; <span class="text-danger">₹<span class="text-danger" id="deal-price">47,900</span> </span> </h5>
+                            <button type="submit" class="btn btn-warning mt-3">Proceed to Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- !subtotal section-->
+            </div>
+        <!--  !shopping cart items   -->
+    </div>
+</section>
+<!-- !Shopping cart section  -->
+
+      <!--Apple Watch Series-->
+      <section id="new-phones">
+        <div class="container">
+          <h4 class="font-rubik font-size-20">Apple Watch Series</h4>
+          <hr>
+
+                <!-- owl carousel -->
+                <div class="owl-carousel owl-theme">
+                  <div class="item py-2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assets/products/apple watch/Apple Watch Series 7 (GPS + Cellular, 45mm) - Blue Aluminium Case with Abyss Blue Sport Band - Regula.jpg" alt="product1" class="img-fluid"></a>
+                        <div class="text-center">
+
+                            <h6>Apple Watch Series 7 (GPS + Cellular, 45mm) - Blue Aluminium Case with Abyss Blue Sport Band - Regula</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>Price:₹53,900</span>
+                            </div>
+                            <button type="button" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item py-2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assets/products/apple watch/New Apple Watch Series 6 (GPS + Cellular, 40mm) - Graphite Stainless Steel Case with Black Sport Band.jpg" alt="product2" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>New Apple Watch Series 6 (GPS + Cellular, 40mm) - Graphite Stainless Steel Case with Black Sport Band</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>Price:₹69,900</span>
+                            </div>
+                            <button type="button" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item py-2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assets/products/apple watch/Apple Watch Series 7 (GPS, 45mm) - Midnight Aluminium Case with Midnight Sport Band - Regular.jpg" alt="product3" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>Apple Watch Series 7 (GPS, 45mm) - Midnight Aluminium Case with Midnight Sport Band - Regular</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span> Price:₹44,900</span>
+                            </div>
+                            <button type="button" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item py-2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assets/products/apple watch/Apple Watch SE (GPS, 40mm) - Space Grey Aluminium Case with Midnight Sport Band - Regular.jpg" alt="product4" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>Apple Watch SE (GPS, 40mm) - Space Grey Aluminium Case with Midnight Sport Band - Regular</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span> Price:₹29,900</span>
+                            </div>
+                            <button type="button" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item py-2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assets/products/apple watch/Apple Watch Series 7 (GPS, 41mm) - (Product) RED Aluminium Case with (Product) RED Sport Band - Regular.jpg" alt="product5" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>Apple Watch Series 7 (GPS, 41mm) - (Product) RED Aluminium Case with (Product) RED Sport  - Regular</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>Price:₹41,900</span>
+                            </div>
+                            <button type="button" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item py-2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assets/products/apple watch/Apple Watch Series 7 (GPS, 45mm) - Starlight Aluminium Case with Starlight Sport Band - Regular.jpg" alt="product6" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>Apple Watch Series 7 (GPS, 45mm) - Starlight Aluminium Case with Starlight Sport Band - Regular</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>Price:₹44,900</span>
+                            </div>
+                            <button type="button" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Apple Watch Series-->
+
+
+        <!--Blogs-->
+
+        <section id="blogs">
+            <div class="container py-4">
+                <h4 class="font-rubik font-size-20">Latest Blogs</h4>
+                <hr>
+
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card border-0 font-rale mr-5" style="width :18rem">
+                            <h5 class="card-title font-rubik font-size-16">Apple iPhone SE 2022 Exchange Offer: How To Buy New iPhone SE 3 For As Low As Rs 22,900</h5>
+                            <img src="./assets/blog/iphone se blog1.jpg" alt="card-img-top">
+                            <p class="card-text font-size-14 text-black-50 py-1">The iPhone SE 3 is priced in India at Rs 43,900 onwards for the base 64GB storage variant. There is a 128GB storage variant that is priced at Rs 48,900, and the top-spec 256GB storage variant is priced at Rs 58,900. </p>
+                            <a href="https://www.news18.com/news/tech/apple-iphone-se-2022-exchange-offer-how-to-buy-new-iphone-se-3-for-as-low-as-rs-22900-4899914.html" class="color-second font-rubik- text-left">NEWS18.com</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 font-rale mr-5" style="width :18rem">
+                            <h5 class="card-title font-rubik font-size-16">40 Students showcase the beauty of Tamil Nadu through their iPhone cameras,Tim Cook reacts <br><br></h5>
+                            <img src="./assets/blog/2ndblog.jpg" alt="card-img-top">
+                            <p class="card-text font-size-14 text-black-50 py-1"> <br><br>The best way for any smartphone brand to promote itself is to engage consumers in the most unique ways Apple has gone a step futher with CEO Tim Cook sharing his joy about a photography exhibition being held in Tamil
+                                Nadu that feature pictures clicked by students using iPhones</p>
+                            <a href="https://economictimes.indiatimes.com/magazines/panache/40-students-showcase-the-beauty-of-tamil-nadu-through-their-iphone-cameras-tim-cook-reacts/articleshow/90459248.cms" class="color-second font-rubik- text-left">Economictime.com</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 font-rale mr-5" style="width :22rem">
+                            <h5 class="card-title font-rubik font-size-16">Apple Said to Be Working on Hardware Subscription Service for iPhone, iPad <br><br><br></h5>
+                            <img src="./assets/blog/3ndblog.jpg" alt="card-img-top">
+                            <p class="card-text font-size-14 text-black-50 py-1"> <br><br>Apple is working on a subscription service for the iPhone and other hardware products, a move that could make device ownership similar to paying a monthly app fee, according to people with knowledge of the matter.Apple
+                                shares climbed to a session high after Bloomberg reported on the news Thursday and closed up 2.3 percent at $174.07 (roughly Rs. 13,200).<br> <br> </p>
+                            <a href="https://gadgets360.com/mobiles/news/apple-iphone-ipad-subscription-service-monthly-fee-device-ownership-2842049" class="color-second font-rubik- text-left">Gadgets360.com</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 font-rale mr-5" style="width :18rem">
+                            <h5 class="card-title font-rubik font-size-16">How this software is beiing used to target Apple users with malware <br><br></h5>
+                            <img src="./assets/blog/blog2.png" alt="card-img-top">
+                            <p class="card-text font-size-14 text-black-50 py-1"> <br><br>Since the beta apps for testing purposes are under no strict surveillance - they are not being screened for the App Store - this gives fraudsters a chance to send malware directly to the victim's device Apple has released
+                                an emergency update for iPhones,iPad and Macs amid fears of a dangerous bug.</p>
+                            <a href="https://economictimes.indiatimes.com/magazines/panache/40-students-showcase-the-beauty-of-tamil-nadu-through-their-iphone-cameras-tim-cook-reacts/articleshow/90459248.cms" class="color-second font-rubik- text-left">Economictime.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Blogs-->
+    </main>
+    <!--Start #Main-site-->
+
+    <!--Start #Footer-->
+    <footer id="footer" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <h4 class="font-rubik font-size-25">iNetwork</h4>
+                    <p class="font-size-14 font-rale text-white-50">The best experiences. Only on Apple. Get the most out of the devices you love with high-quality content and services. </p>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <h4 class="font-rubik font-size-20">Newslatter</h4>
+                    <form class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Email *">
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary mb-2 font-rubik">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h4 class="font-rubik font-size-20">Information</h4>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h4 class="font-rubik font-size-20">Account</h4>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">My Account</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Order History</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Wish List</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newslatters</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright text-center bg-dark text-white py-2">
+        <p class="font-rale font-size-14">&copy; Copyrights 2020. Desing By <a href="https://www.instagram.com/sourabh_sakpal93/" class="color-second">Sourabh Sakpal</a></p>
+    </div>
+    <!-- !start #footer -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel Js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+    <!--  isotope plugin cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
